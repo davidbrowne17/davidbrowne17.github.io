@@ -3,17 +3,22 @@
   zoom: 1.0 ;
 }
 body {
+	
   background-color: #074218;
   min-height: 100%;
 }
 .centre{
 	padding-top: 10px;
 	background-color: #0e4d24;
-	min-height:100%;
-	position:absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	min-height:100vh
+	
+}
+
+.centered-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
 }
 
 .main{

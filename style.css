@@ -1,16 +1,17 @@
 body {
-  background-color: #167638;
+  background-color: #074218;
   height: 100%;
   margin: 0;
+  
 }
 .centre{
 	padding-top: 10px;
 	background-color: #0e4d24;
-	position: fixed;
-	top: 0;
-	bottom: 0;
-	overflow: auto;
-	
+	height:100%;
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .main{
@@ -23,6 +24,13 @@ body {
 
 .store{
 padding-top:10px;
-display:inline;
+}
+.logo{
+float:left;
+padding-left:10px;
 }
 
+.donatebutton{
+padding-top: 5px;
+width:125%;
+}

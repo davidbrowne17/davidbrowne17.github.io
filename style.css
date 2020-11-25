@@ -4,14 +4,12 @@
 }
 body {
   background-color: #074218;
-  height: 100%;
-  margin: 0;
-  
+  min-height: 100%;
 }
 .centre{
 	padding-top: 10px;
 	background-color: #0e4d24;
-	height:100%;
+	min-height:100%;
 	position:absolute;
 	top: 50%;
 	left: 50%;

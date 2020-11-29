@@ -4,14 +4,18 @@
 }
 body {
 	
-  background-color: #074218;
+  background-color: #292c5f;
   min-height: 100%;
+  color: white;
 }
 .centre{
 	padding-top: 10px;
-	background-color: #0e4d24;
+	background-color: #26293d;
 	min-height:100vh
 	
+}
+a:visited {
+  color: green;
 }
 
 .centered-wrapper {

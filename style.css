@@ -11,7 +11,8 @@ body {
 .centre{
 	padding-top: 10px;
 	background-color: #26293d;
-	min-height:100vh
+	min-height:100vh;
+	min-width:560px;
 	
 }
 a:visited {

@@ -6,39 +6,17 @@ body {
 	
   background-color: #292c5f;
   min-height: 100%;
+  min-width:100%;
   color: white;
 }
-.centre{
-	padding-top: 10px;
-	background-color: #26293d;
-	min-height:100vh;
-	min-width:560px;
-	
-}
-a:visited {
-  color: green;
-}
-
-.centered-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-height: 100%;
-}
-
-.main{
-  text-align: center;
-  font-family: "Raleway", sans-serif;
-  width:50%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-
-
-
-.donatebutton{
-padding-top: 5px;
+.navbar-custom {
+background-color: #121f52;
 
 }
+
+.carousel {
+  max-width:640px;
+  max-height:360px;
+  margin: auto;
+}
+

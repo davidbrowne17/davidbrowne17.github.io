@@ -20,3 +20,6 @@ background-color: #121f52;
   margin: auto;
 }
 
+.carousel img{
+  width:100%;
+}
